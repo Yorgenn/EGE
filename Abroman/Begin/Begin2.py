@@ -4,4 +4,8 @@
 # str()
 
 print("Введите сторону квадрата:")
-side: float = float(input())
+lenght: float = float(input())
+
+s:  float = lenght**2
+
+print(f"Площадь квадрата со стороной {lenght} равен {s}")
