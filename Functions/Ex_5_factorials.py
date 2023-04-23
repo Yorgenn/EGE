@@ -10,8 +10,10 @@ def get_factorial(n: int) -> int:
     return prod
 
 
-n: int = 1
-while n <= 100000:
-    print(f"{n}- {get_factorial(n)}")
+print(get_factorial(2023))
 
-    n += 1
+# n: int = 1
+# while n <= 100000:
+# print(f"{n}- {get_factorial(n)}")
+
+# n += 1
