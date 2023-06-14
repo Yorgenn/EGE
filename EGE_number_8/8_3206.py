@@ -7,6 +7,5 @@ for c1 in chars:
             for c4 in chars:
                 for c5 in chars:
                     i += 1
-                if f"{c1}{c2}{c3}{c4}{c5}" == f"К{c2}{c3}{c4}{c5}":
-                    print(i)
-# TODO
+                    if f"{c1}{c2}{c3}{c4}{c5}" == f"К{c2}{c3}{c4}{c5}":
+                        print(i)
